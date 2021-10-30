@@ -1586,4 +1586,49 @@ input:focus {
 .about-intro .about-intro-content p {
   color: gray;
 }
+
+.call {
+  background: url("../images/call.jpg") no-repeat scroll center/cover;
+  padding: 6pc 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #fff;
+}
+
+.call .title-section h4 {
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-color: #ffffff80;
+  font-size: 50px;
+}
+
+.call .title-section h4 span {
+  -webkit-text-fill-color: #fff;
+}
+
+.call p {
+  color: #fbaf17;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: 22px;
+  margin: 0;
+}
+
+.call a.btn {
+  border-radius: 0;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.call a.btn:first-child {
+  color: #000;
+  font-weight: 700;
+}
 /*# sourceMappingURL=main.css.map */

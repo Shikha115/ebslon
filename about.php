@@ -33,6 +33,19 @@
         </div>
     </section>
 
+    <section class="call mb-80 heading">
+        <div class="container text-center">
+            <p>Call to active</p>
+            <div class="title-section">
+                <h4><span>ANYTHING ON YOUR MIND</span><br>LET US KNOW</h4>
+            </div>
+            <div class='clearfix m-auto' style='width:max-content;'>
+                <a href="#" class="btn btn-1 mr-3 float-left">Mail Us now</a>
+                <a href="#" class="btn btn-2 float-right">Contact Us now</a>
+            </div>
+        </div>
+    </section>
+
     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 </main>
 
