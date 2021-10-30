@@ -1502,6 +1502,8 @@ input:focus {
   -webkit-box-shadow: inset 0px 0px 5px 3px #fff;
           box-shadow: inset 0px 0px 5px 3px #fff;
   margin-bottom: 20px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .testimonial-sec .testimonial-inner p {
