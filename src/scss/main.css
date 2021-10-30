@@ -141,6 +141,56 @@
   }
 }
 
+@-webkit-keyframes border-transform {
+  0%,
+  100% {
+    border-radius: 63% 37% 54% 46% / 55% 48% 52% 45%;
+  }
+  14% {
+    border-radius: 40% 60% 54% 46% / 49% 60% 40% 51%;
+  }
+  28% {
+    border-radius: 54% 46% 38% 62% / 49% 70% 30% 51%;
+  }
+  42% {
+    border-radius: 61% 39% 55% 45% / 61% 38% 62% 39%;
+  }
+  56% {
+    border-radius: 61% 39% 67% 33% / 70% 50% 50% 30%;
+  }
+  70% {
+    border-radius: 50% 50% 34% 66% / 56% 68% 32% 44%;
+  }
+  84% {
+    border-radius: 46% 54% 50% 50% / 35% 61% 39% 65%;
+  }
+}
+
+@keyframes border-transform {
+  0%,
+  100% {
+    border-radius: 63% 37% 54% 46% / 55% 48% 52% 45%;
+  }
+  14% {
+    border-radius: 40% 60% 54% 46% / 49% 60% 40% 51%;
+  }
+  28% {
+    border-radius: 54% 46% 38% 62% / 49% 70% 30% 51%;
+  }
+  42% {
+    border-radius: 61% 39% 55% 45% / 61% 38% 62% 39%;
+  }
+  56% {
+    border-radius: 61% 39% 67% 33% / 70% 50% 50% 30%;
+  }
+  70% {
+    border-radius: 50% 50% 34% 66% / 56% 68% 32% 44%;
+  }
+  84% {
+    border-radius: 46% 54% 50% 50% / 35% 61% 39% 65%;
+  }
+}
+
 body {
   margin: 0px;
   padding: 0px;
@@ -1589,7 +1639,7 @@ input:focus {
 
 .call {
   background: url("../images/call.jpg") no-repeat scroll center/cover;
-  padding: 6pc 0;
+  padding: 6pc 0 13pc;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1630,5 +1680,103 @@ input:focus {
 .call a.btn:first-child {
   color: #000;
   font-weight: 700;
+}
+
+.mission {
+  margin-top: -13pc;
+}
+
+.mission .mission-inner {
+  background-color: #00bea3;
+  padding: 2pc 3pc 4pc;
+}
+
+.mission .mission-inner:before {
+  content: '';
+  background-color: #000;
+  height: 0;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  position: absolute;
+  z-index: 1;
+}
+
+.mission .mission-inner:hover {
+  color: #fff;
+  -webkit-transition: all 0.5s linear;
+  transition: all 0.5s linear;
+}
+
+.mission .mission-inner:hover:before {
+  -webkit-transition: all 0.5s linear;
+  transition: all 0.5s linear;
+  height: 100%;
+}
+
+.mission .mission-inner img {
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border: 3px solid #fff;
+  -webkit-box-shadow: 0px 0px 5px 2px lightgray;
+          box-shadow: 0px 0px 5px 2px lightgray;
+  position: absolute;
+  top: -2pc;
+  left: 1pc;
+  z-index: 4;
+}
+
+.mission .mission-inner .mission-no {
+  background-color: #43f3da;
+  bottom: -1pc;
+  right: -1pc;
+  font-size: 36px;
+  font-weight: 600;
+  height: 79px;
+  width: 83px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 100%;
+  z-index: 2;
+  -webkit-animation: border-transform 7s linear infinite alternate forwards;
+          animation: border-transform 7s linear infinite alternate forwards;
+  border: 2px dotted #ffffff;
+  z-index: 4;
+}
+
+.mission .mission-inner h4.heading {
+  padding-left: 3pc;
+  font-weight: 900;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 29px;
+  position: relative;
+  z-index: 4;
+}
+
+.mission .mission-inner p {
+  margin: 0;
+  font-size: 15px;
+  position: relative;
+  z-index: 4;
+}
+
+.mission .mission-inner li {
+  list-style-type: circle !important;
+  list-style-position: inside;
+  position: relative;
+  z-index: 4;
 }
 /*# sourceMappingURL=main.css.map */

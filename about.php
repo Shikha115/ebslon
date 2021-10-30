@@ -46,7 +46,55 @@
         </div>
     </section>
 
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <section class="mission mb-80">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-4 col-adjust pl-0">
+                    <div class="mission-inner position-relative">
+                        <div class="mission-content">
+                            <div class="mission-no heading position-absolute">01</div>
+                            <h4 class='heading'>Our Mission</h4>
+                            <p>Our mission is to deliver top-quality state-of-the-art solutions and services at fair-minded prices. We think strategically, contribute significantly, work independently, and deliver ground-breaking client-centric solutions.</p>
+                            <img src="src/images/m1.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 col-adjust pl-0">
+                    <div class="mission-inner position-relative">
+                        <div class="mission-content">
+                            <div class="mission-no heading position-absolute">01</div>
+                            <h4 class='heading'>Our vision</h4>
+                            <p>Our vision is to augmenting the business escalation of our clientele in a constant manner with creative web design and development to deliver innovative, strategic, and catalytic solutions that add value and generate a reliable competitive advantage in all digital platforms for our clientele from across the world.</p>
+                            <img src="src/images/m2.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 p-0">
+                    <div class="mission-inner position-relative">
+                        <div class="mission-content">
+                            <div class="mission-no heading position-absolute">01</div>
+                            <h4 class='heading'>Our Core Values</h4>
+                            <p>We at Ebslon believe in:
+                                <ul>
+                                    <li>Trust & Transparency</li>
+                                    <li>Mutual Respect</li>
+                                    <li>Uncompromised Quality</li>
+                                    <li>Performance Excellence</li>
+                                    <li>Client-Centric</li>
+                                    <li>Open and Timely Communication</li>
+                                    <li>Innovative solutions</li>
+                                    <li>Quick turnaround time</li>
+                                    <li>Admirable Customer Support Service</li>
+                                </ul>
+                            </p>
+                            <img src="src/images/m3.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
 </main>
 
 <?php include("footer.php");?>
