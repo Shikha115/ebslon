@@ -53,7 +53,7 @@ $(document).ready(function() {
 
     $(function() {
         $('.test-form-slider').owlCarousel({
-            animateOut: 'faseOut',
+            animateOut: 'fadeOut',
             items: 1,
             loop: true,
             stagePadding: 0,

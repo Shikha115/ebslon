@@ -331,7 +331,41 @@
         </div>
     </section>
 
-   
+   <section class="testimonial-sec mb-80">
+       <div class="test-bg"></div>
+       <div class="container">
+           <div class="title-section">
+               <span>Testimonials</span>
+               <h4>What are Clients say about us?</h4>
+           </div>
+           <div class="owl-carousel owl-theme test-form-slider">
+               <div class="item">
+                   <div class="testimonial-inner">
+                       <img src="src/images/t1.jpg" alt="">
+                       <p><i class="fas fa-quote-left"></i>Thanks for a great job, I am very happy with the result. During the work process, they were very flexible and willing to try several things according to my suggestions. I’m sure I’ll hire them again!</p>
+                       <h4 class="heading">Aditya</h4><br>
+                       <span>US</span>
+                   </div>
+               </div>
+               <div class="item">
+                    <div class="testimonial-inner">
+                        <img src="src/images/t2.jpg" alt="">
+                        <p><i class="fas fa-quote-left"></i>Excellent company Ebslon! I will definitely work with them again. Good communication, good work, on time!</p>
+                        <h4 class="heading">Aman</h4><br>
+                        <span>INDIA</span>
+                    </div>
+               </div>
+               <div class="item">
+                    <div class="testimonial-inner">
+                        <img src="src/images/t3.jpg" alt="">
+                        <p><i class="fas fa-quote-left"></i>Professional, transparent and honest guys … you’ll love working with Ebslon.</p>
+                        <h4 class="heading">Madhu</h4><br>
+                        <span>India</span>
+                    </div>
+               </div>
+           </div>
+       </div>
+   </section>
 
 
 

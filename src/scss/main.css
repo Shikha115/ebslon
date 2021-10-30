@@ -1456,4 +1456,17 @@ input:focus {
 .col-adjust {
   padding: 0px 35px;
 }
+
+.testimonial-sec {
+  position: relative;
+  padding: 50px 0;
+}
+
+.testimonial-sec .test-bg {
+  background: url("../images/global.png") no-repeat scroll center/contain;
+  opacity: 0.3;
+  position: absolute;
+  height: 100%;
+  width: auto;
+}
 /*# sourceMappingURL=main.css.map */
