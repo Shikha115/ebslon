@@ -98,7 +98,7 @@ $(document).ready(function() {
 
     $(function() {
         $('.clients').owlCarousel({
-            items: 3,
+            items: 6,
             margin: 20,
             dots: false,
             nav: false,
