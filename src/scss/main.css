@@ -1364,7 +1364,7 @@ input:focus {
 }
 
 .page-banner .page-absolute {
-  background-image: url("../images/slider/slide3.jpg");
+  background-image: url("../images/slider/design.jpg");
   height: 50vh;
   width: 100%;
   background-position: center;
@@ -1380,19 +1380,8 @@ input:focus {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  position: relative;
-}
-
-.page-banner .page-absolute:before {
-  content: '';
-  position: absolute;
-  background-color: #00bea3;
-  opacity: 0.3;
-  z-index: 1;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  left: 0;
+  -webkit-box-shadow: inset 0px 0px 0px 2000px #0000ff38;
+          box-shadow: inset 0px 0px 0px 2000px #0000ff38;
 }
 
 .page-banner .page-absolute a {

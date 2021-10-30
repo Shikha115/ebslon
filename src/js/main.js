@@ -60,7 +60,7 @@ $(document).ready(function() {
             margin: 0,
             smartSpeed: 1000,
             autoplay: true,
-            dots: false,
+            dots: true,
             nav: false
         });
     });
