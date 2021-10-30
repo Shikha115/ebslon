@@ -1031,10 +1031,11 @@ input:focus {
     }
     .test-bg {
         background: url('../images/global.png') no-repeat scroll center/contain;
-        opacity: 0.3;
+        opacity: 0.6;
         position: absolute;
         height: 100%;
-        width: auto;
+        width: 100%;
+        top: 0;
     }
     .testimonial-inner {
         margin: 0 auto;
