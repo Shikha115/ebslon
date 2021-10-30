@@ -95,6 +95,40 @@
         </div>
     </section>
 
+    <div class="container">
+        <hr class='m-0'>
+    </div>
+
+    <section class="client-sec">
+        <div class="container">
+            <div class="row">
+                <div class="owl-carousel owl-theme clients">
+                    <div class="item">
+                        <img src="src/images/clients/1.png" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="src/images/clients/2.png" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="src/images/clients/3.png" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="src/images/clients/4.png" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="src/images/clients/5.png" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="src/images/clients/6.png" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="src/images/clients/7.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
 </main>
 
 <?php include("footer.php");?>
