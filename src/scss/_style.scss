@@ -1016,7 +1016,7 @@ input:focus {
 
 .testimonial-sec {
     position: relative;
-    background: url('../images/testimonials.png') no-repeat scroll center/cover;
+    background: url('../images/testimonials.png') no-repeat scroll center/contain;
     .title-section {
         margin: 0 auto;
         max-width: 500px;
