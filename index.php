@@ -343,7 +343,7 @@
                    <div class="testimonial-inner">
                        <img src="src/images/t1.jpg" alt="">
                        <p><i class="fas fa-quote-left"></i>Thanks for a great job, I am very happy with the result. During the work process, they were very flexible and willing to try several things according to my suggestions. I’m sure I’ll hire them again!</p>
-                       <h4 class="heading">Aditya</h4><br>
+                       <h4 class="heading">Aditya</h4>
                        <span>US</span>
                    </div>
                </div>
@@ -351,7 +351,7 @@
                     <div class="testimonial-inner">
                         <img src="src/images/t2.jpg" alt="">
                         <p><i class="fas fa-quote-left"></i>Excellent company Ebslon! I will definitely work with them again. Good communication, good work, on time!</p>
-                        <h4 class="heading">Aman</h4><br>
+                        <h4 class="heading">Aman</h4>
                         <span>INDIA</span>
                     </div>
                </div>
@@ -359,7 +359,7 @@
                     <div class="testimonial-inner">
                         <img src="src/images/t3.jpg" alt="">
                         <p><i class="fas fa-quote-left"></i>Professional, transparent and honest guys … you’ll love working with Ebslon.</p>
-                        <h4 class="heading">Madhu</h4><br>
+                        <h4 class="heading">Madhu</h4>
                         <span>India</span>
                     </div>
                </div>

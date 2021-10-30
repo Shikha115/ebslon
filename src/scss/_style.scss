@@ -1016,12 +1016,58 @@ input:focus {
 
 .testimonial-sec {
     position: relative;
-    padding: 50px 0;
+    background: url('../images/testimonials.png') no-repeat scroll center/cover;
+    .title-section {
+        margin: 0 auto;
+        max-width: 500px;
+        h4 {
+            line-height: 40px;
+        }
+        &>span {
+            top: -2pc;
+            bottom: auto;
+            line-height: 4pc;
+        }
+    }
     .test-bg {
         background: url('../images/global.png') no-repeat scroll center/contain;
         opacity: 0.3;
         position: absolute;
         height: 100%;
         width: auto;
+    }
+    .testimonial-inner {
+        margin: 0 auto;
+        max-width: 700px;
+        text-align: center;
+        img {
+            height: 140px;
+            width: 140px !important;
+            border-radius: 50%;
+            margin: 0 auto 0;
+            background: #000;
+            padding: 6px;
+            box-shadow: inset 0px 0px 5px 3px #fff;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 19px;
+            i {
+                font-size: 50px;
+                margin: 0px 11px 0px 0;
+                color: #fbaf17;
+            }
+        }
+        h4.heading {
+            font-weight: 700;
+            margin: 0;
+        }
+        span {
+            font-size: 16px;
+            font-weight: 600;
+            font-style: italic;
+            color: #fbaf17;
+            letter-spacing: 1px;
+        }
     }
 }
