@@ -148,6 +148,15 @@ body {
   overflow-x: hidden;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+.btn:focus {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
 .btn-1 {
   color: #fff;
   background-color: #fbaf17;
@@ -1380,7 +1389,7 @@ input:focus {
 }
 
 .page-banner:before {
-  background: url("../images/bg-image.png") no-repeat scroll center/cover;
+  background: url("../images/bg-image.png") no-repeat fixed center/cover;
   position: absolute;
   content: '';
   height: 100%;
@@ -1534,5 +1543,47 @@ input:focus {
   font-style: italic;
   color: #fbaf17;
   letter-spacing: 1px;
+}
+
+.about-intro .about-intro-inner img {
+  height: 340px;
+  width: 340px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+  -o-object-position: top;
+     object-position: top;
+  border: 4px solid transparent;
+  -webkit-box-shadow: 0px 0px 4px 3px #fbaf17;
+          box-shadow: 0px 0px 4px 3px #fbaf17;
+}
+
+.about-intro .about-intro-content {
+  position: relative;
+  margin-top: -7pc;
+}
+
+.about-intro .about-intro-content:before {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  background: lightgray;
+  height: 40%;
+  width: 100%;
+  z-index: -1;
+}
+
+.about-intro .about-intro-content .title-section h4 {
+  margin: 0;
+  padding: 30px 0 40px;
+}
+
+.about-intro .about-intro-content .title-section h4 span {
+  -webkit-text-fill-color: #000;
+}
+
+.about-intro .about-intro-content p {
+  color: gray;
 }
 /*# sourceMappingURL=main.css.map */

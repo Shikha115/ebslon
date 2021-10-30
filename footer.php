@@ -25,7 +25,7 @@
                         <img src="src/images/logo-white.png" alt="">
                         <div class="footer-content flex-column">
                             <p>In this ever-changing environment, keeping a competitive edge means being able to anticipate and respond quickly to changing business conditions. As a privately owned company, we provide IT Consultancy, software design and development as well as...</p>
-                            <a href="#" class="btn">Read More</a>
+                            <a href="about.php#about" class="btn">Read More</a>
                         </div>
                     </div>
                 </div>
