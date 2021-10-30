@@ -27,19 +27,19 @@
                         </button>
                         <div class="collapse navbar-collapse" id="navbarNav">
                             <ul class="navbar-nav">
-                                <li class="nav-item <?=$_SERVER['REQUEST_URI']=='/CMS/index.php'?'menu-active':''?>">
+                                <li class="nav-item <?=$_SERVER['REQUEST_URI']=='/ebslon/index.php'?'menu-active':''?>">
                                     <a class="nav-link" href="index.php">Home<span class="sr-only">(current)</span></a>
                                 </li>
-                                <li class="nav-item <?=$_SERVER['REQUEST_URI']=='/CMS/about.php'?'menu-active':''?>" >
+                                <li class="nav-item <?=$_SERVER['REQUEST_URI']=='/ebslon/about.php'?'menu-active':''?>" >
                                     <a class="nav-link " href="about.php">About</a>
                                 </li>
-                                <li class="nav-item <?=$_SERVER['REQUEST_URI']=='/CMS/services.php'?'menu-active':''?>">
+                                <li class="nav-item <?=$_SERVER['REQUEST_URI']=='/ebslon/services.php'?'menu-active':''?>">
                                     <a class="nav-link" href="services.php">Services</a>
                                 </li>
-                                <li class="nav-item <?=$_SERVER['REQUEST_URI']=='/CMS/services.php'?'menu-active':''?>">
+                                <li class="nav-item <?=$_SERVER['REQUEST_URI']=='/ebslon/services.php'?'menu-active':''?>">
                                     <a class="nav-link" href="portfolio.php">Portfolio</a>
                                 </li>
-                                <li class="nav-item <?=$_SERVER['REQUEST_URI']=='/CMS/contact.php'?'menu-active':''?>">
+                                <li class="nav-item <?=$_SERVER['REQUEST_URI']=='/ebslon/contact.php'?'menu-active':''?>">
                                     <a class="nav-link" href="contact.php">Contact</a>
                                 </li>
                             </ul>

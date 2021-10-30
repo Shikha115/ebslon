@@ -16,6 +16,7 @@ $(document).ready(function() {
 
     $(() => {
         $('.menu .nav-item').click(e => {
+            console.log('jhbjhbjh');
             $(e.currentTarget).toggleClass('menu-active');
         });
     });
