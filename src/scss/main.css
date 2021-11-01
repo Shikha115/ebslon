@@ -1924,4 +1924,51 @@ input:focus {
 .offer .offer-range .offer-width {
   height: 4px;
 }
+
+.single-service-banner h2 {
+  font-size: 48px !important;
+  line-height: 48px;
+}
+
+.service-box1 img {
+  height: 100%;
+  width: 100%;
+  -webkit-box-shadow: inset 0 0 0 1pc;
+          box-shadow: inset 0 0 0 1pc;
+  padding: 1pc;
+  border: 2px dotted;
+  -webkit-animation: border-transform 7s linear infinite alternate forwards;
+          animation: border-transform 7s linear infinite alternate forwards;
+}
+
+.service-box1 .title-section h4 {
+  margin: 0pc 0 10px !important;
+  font-size: 30px;
+}
+
+.service-box1 p {
+  color: gray;
+  font-size: 15px;
+}
+
+.service-box2 {
+  padding: 4pc 0;
+}
+
+.service-box2:before {
+  background: #00bea35c;
+  height: 100%;
+  width: 60%;
+  left: 0;
+  top: 0;
+  content: '';
+  position: absolute;
+}
+
+.service-box2 img {
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
 /*# sourceMappingURL=main.css.map */
