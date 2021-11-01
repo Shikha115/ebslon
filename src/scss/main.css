@@ -223,7 +223,7 @@ html {
 }
 
 a.btn-2 {
-  color: #000;
+  color: #1d2122;
   background-color: transparent;
   border: 2px solid #fbaf17;
   border-radius: 38px;
@@ -234,7 +234,7 @@ a.btn-2 {
 }
 
 a.btn-2:hover {
-  color: #000;
+  color: #1d2122;
 }
 
 .title-section {
@@ -273,13 +273,12 @@ a.btn-2:hover {
   position: relative;
   z-index: 5;
   -webkit-text-fill-color: #fff;
-  -webkit-text-stroke-color: #000;
+  -webkit-text-stroke-color: #1d2122;
   -webkit-text-stroke-width: 1px;
 }
 
 .title-section h4 span {
-  font-weight: 600;
-  color: #fbaf17;
+  -webkit-text-fill-color: #1d2122;
 }
 
 .title-section p {
@@ -303,7 +302,7 @@ header {
   right: 0;
   left: 0;
   z-index: 1030;
-  background: #000;
+  background: #1d2122;
 }
 
 header.custom.onscroll {
@@ -430,7 +429,7 @@ header .menu .menu-right ul li i {
 }
 
 header .menu .menu-right ul li a {
-  color: #000;
+  color: #1d2122;
   font-weight: 700;
   font-size: 24px;
 }
@@ -492,7 +491,7 @@ ul li {
 }
 
 .home-slider .home-slider-social-links ul a {
-  background: #000;
+  background: #1d2122;
   color: #fff;
   height: 44px;
   width: 44px;
@@ -732,7 +731,7 @@ ul li {
 
 .video-modal .modal-body button.close {
   right: -2pc;
-  background-color: #000;
+  background-color: #1d2122;
   opacity: 1;
   width: 4%;
   height: 7%;
@@ -752,7 +751,7 @@ ul li {
 }
 
 .about-sec .about-sec-left .about-sec-left-absolute {
-  background-color: #000;
+  background-color: #1d2122;
   position: relative;
   height: -webkit-max-content;
   height: -moz-max-content;
@@ -819,7 +818,7 @@ ul li {
   position: absolute;
   height: 100%;
   width: 2px;
-  background: #000;
+  background: #1d2122;
   top: 0;
   right: 50%;
 }
@@ -999,7 +998,7 @@ ul li {
 }
 
 .mobile-app .title-section2 h4.main {
-  background: #000;
+  background: #1d2122;
   color: #fff;
   max-width: -webkit-max-content;
   max-width: -moz-max-content;
@@ -1047,9 +1046,9 @@ ul li {
 }
 
 .portfolio-sec {
-  border: 0px solid #000;
+  border: 0px solid #1d2122;
   border-width: 30px 0;
-  background-color: #000;
+  background-color: #1d2122;
 }
 
 .portfolio-sec .portfolio1 .owl-item.active .portfolio-inner h3 {
@@ -1141,7 +1140,7 @@ ul li {
 }
 
 .portfolio-sec .portfolio-inner .portolio-left a.btn-1 {
-  background-color: #000;
+  background-color: #1d2122;
   border-radius: 0 !important;
 }
 
@@ -1255,6 +1254,7 @@ footer .footer-inner ul.links li a {
   font-weight: 700;
   font-size: 13px;
   letter-spacing: 1px;
+  text-transform: uppercase;
 }
 
 footer .footer-inner .footer-content {
@@ -1458,7 +1458,7 @@ input:focus {
 }
 
 .page-banner .page-absolute a {
-  color: #000;
+  color: #1d2122;
 }
 
 .page-banner .page-absolute h2 {
@@ -1499,7 +1499,7 @@ input:focus {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #000;
+  color: #1d2122;
   font-weight: 700;
   letter-spacing: 1px;
 }
@@ -1563,7 +1563,7 @@ input:focus {
   width: 140px !important;
   border-radius: 50%;
   margin: 0 auto 0;
-  background: #000;
+  background: #1d2122;
   padding: 6px;
   -webkit-box-shadow: inset 0px 0px 5px 3px #fff;
           box-shadow: inset 0px 0px 5px 3px #fff;
@@ -1630,7 +1630,7 @@ input:focus {
 }
 
 .about-intro .about-intro-content .title-section h4 span {
-  -webkit-text-fill-color: #000;
+  -webkit-text-fill-color: #1d2122;
 }
 
 .about-intro .about-intro-content p {
@@ -1678,7 +1678,7 @@ input:focus {
 }
 
 .call a.btn:first-child {
-  color: #000;
+  color: #1d2122;
   font-weight: 700;
 }
 
@@ -1778,5 +1778,65 @@ input:focus {
   list-style-position: inside;
   position: relative;
   z-index: 4;
+}
+
+.service-page ul#pills-tab li.nav-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-preferred-size: calc(33.33% - (15px));
+      flex-basis: calc(33.33% - (15px));
+  margin: 0 auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.service-page ul#pills-tab li.nav-item .nav-link {
+  color: #1d2122;
+  border: 2px solid #f3f3f3;
+}
+
+.service-page ul#pills-tab li.nav-item .nav-link.active {
+  background-color: #1d2122;
+  color: #fff;
+  position: relative;
+}
+
+.service-page ul#pills-tab li.nav-item .nav-link.active:before {
+  content: '';
+  background-color: #1d2122;
+  height: 28px;
+  width: 28px;
+  right: 48%;
+  top: -0.8pc;
+  position: absolute;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  z-index: 0;
+}
+
+.service-page ul#pills-tab li.nav-item .nav-link .service-tabs {
+  padding: 13px 11px;
+  position: relative;
+  z-index: 4;
+}
+
+.service-page ul#pills-tab li.nav-item .nav-link .service-tabs img {
+  height: 66px;
+  width: 66px;
+  margin-right: 1pc;
+}
+
+.service-page ul#pills-tab li.nav-item .nav-link .service-tabs p {
+  margin: 0;
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+.service-page ul#pills-tab li.nav-item .nav-link .service-tabs h4 {
+  font-weight: 800;
+  font-size: 20px;
 }
 /*# sourceMappingURL=main.css.map */

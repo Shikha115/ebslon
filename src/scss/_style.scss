@@ -75,8 +75,7 @@ a.btn-2 {
         -webkit-text-stroke-color: $black;
         -webkit-text-stroke-width: 1px;
         span {
-            font-weight: 600;
-            color: $primary;
+            -webkit-text-fill-color: $black;
         }
     }
     p {
@@ -838,6 +837,7 @@ footer {
                     font-weight: 700;
                     font-size: 13px;
                     letter-spacing: 1px;
+                    text-transform: uppercase;
                 }
             }
         }
@@ -1237,6 +1237,57 @@ input:focus {
             list-style-position: inside;
             position: relative;
             z-index: 4;
+        }
+    }
+}
+
+.service-page {
+    ul#pills-tab {
+        li.nav-item {
+            display: flex;
+            flex-basis: calc(33.33% - (15px));
+            margin: 0 auto;
+            justify-content: center;
+            margin-bottom: 2rem;
+            .nav-link {
+                color: $black;
+                border: 2px solid #f3f3f3;
+                &.active {
+                    background-color: $black;
+                    color: $white;
+                    position: relative;
+                    &:before {
+                        content: '';
+                        background-color: $black;
+                        height: 28px;
+                        width: 28px;
+                        right: 48%;
+                        top: -0.8pc;
+                        position: absolute;
+                        transform: rotate(45deg);
+                        z-index: 0;
+                    }
+                }
+                .service-tabs {
+                    padding: 13px 11px;
+                    position: relative;
+                    z-index: 4;
+                    img {
+                        height: 66px;
+                        width: 66px;
+                        margin-right: 1pc;
+                    }
+                    p {
+                        margin: 0;
+                        font-size: 14px;
+                        white-space: nowrap;
+                    }
+                    h4 {
+                        font-weight: 800;
+                        font-size: 20px;
+                    }
+                }
+            }
         }
     }
 }

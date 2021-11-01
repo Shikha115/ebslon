@@ -62,7 +62,7 @@
                 <div class="col-12 col-md-4 col-adjust pl-0">
                     <div class="mission-inner position-relative">
                         <div class="mission-content">
-                            <div class="mission-no heading position-absolute">01</div>
+                            <div class="mission-no heading position-absolute">02</div>
                             <h4 class='heading'>Our vision</h4>
                             <p>Our vision is to augmenting the business escalation of our clientele in a constant manner with creative web design and development to deliver innovative, strategic, and catalytic solutions that add value and generate a reliable competitive advantage in all digital platforms for our clientele from across the world.</p>
                             <img src="src/images/m2.jpg" alt="">
@@ -72,7 +72,7 @@
                 <div class="col-12 col-md-4 p-0">
                     <div class="mission-inner position-relative">
                         <div class="mission-content">
-                            <div class="mission-no heading position-absolute">01</div>
+                            <div class="mission-no heading position-absolute">03</div>
                             <h4 class='heading'>Our Core Values</h4>
                             <p>We at Ebslon believe in:
                                 <ul>
