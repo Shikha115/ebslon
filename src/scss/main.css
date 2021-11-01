@@ -1780,6 +1780,17 @@ input:focus {
   z-index: 4;
 }
 
+.service-page .service-page-right .title-section > span {
+  bottom: auto;
+  line-height: 4pc;
+  top: -2.5pc;
+}
+
+.service-page .service-page-right .title-section h4 {
+  line-height: 40px;
+  margin: 0 0 15px;
+}
+
 .service-page ul#pills-tab li.nav-item {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1838,5 +1849,79 @@ input:focus {
 .service-page ul#pills-tab li.nav-item .nav-link .service-tabs h4 {
   font-weight: 800;
   font-size: 20px;
+}
+
+.offer {
+  background: #2c2c2c;
+  padding: 60px 0;
+  color: #fff;
+}
+
+.offer:before, .offer:after {
+  content: '';
+  background-color: white;
+  height: 28px;
+  width: 28px;
+  right: 50%;
+  position: absolute;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  z-index: 0;
+}
+
+.offer:before {
+  top: -0.9pc;
+}
+
+.offer:after {
+  bottom: -0.9pc;
+}
+
+.offer .title-section h6 {
+  color: #fbaf17;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.offer .title-section h4 {
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-color: #ffffff80;
+  margin-bottom: 2pc !important;
+}
+
+.offer .title-section h4 span {
+  -webkit-text-fill-color: #fff;
+}
+
+.offer p {
+  font-size: 15px;
+  margin-bottom: 2pc !important;
+}
+
+.offer img {
+  height: 100%;
+  width: 100%;
+}
+
+.offer .offer-range {
+  margin-bottom: 1pc;
+}
+
+.offer .offer-range h5 {
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.offer .offer-range .offer-width {
+  width: 100%;
+  background: gray;
+}
+
+.offer .offer-range .offer-fill,
+.offer .offer-range .offer-width {
+  height: 4px;
 }
 /*# sourceMappingURL=main.css.map */

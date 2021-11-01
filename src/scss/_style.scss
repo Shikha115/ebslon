@@ -1242,6 +1242,19 @@ input:focus {
 }
 
 .service-page {
+    .service-page-right {
+        .title-section {
+            &>span {
+                bottom: auto;
+                line-height: 4pc;
+                top: -2.5pc;
+            }
+            h4 {
+                line-height: 40px;
+                margin: 0 0 15px;
+            }
+        }
+    }
     ul#pills-tab {
         li.nav-item {
             display: flex;
@@ -1288,6 +1301,70 @@ input:focus {
                     }
                 }
             }
+        }
+    }
+}
+
+.offer {
+    background: $dark;
+    padding: 60px 0;
+    color: $white;
+    &:before,
+    &:after {
+        content: '';
+        background-color: white;
+        height: 28px;
+        width: 28px;
+        right: 50%;
+        position: absolute;
+        transform: rotate( 45deg);
+        z-index: 0;
+    }
+    &:before {
+        top: -0.9pc;
+    }
+    &:after {
+        bottom: -0.9pc;
+    }
+    .title-section {
+        h6 {
+            color: $primary;
+            text-transform: uppercase;
+            font-weight: 600;
+            letter-spacing: 1px;
+        }
+        h4 {
+            -webkit-text-fill-color: transparent;
+            -webkit-text-stroke-color: #ffffff80;
+            margin-bottom: 2pc !important;
+            span {
+                -webkit-text-fill-color: #fff;
+            }
+        }
+    }
+    p {
+        font-size: 15px;
+        margin-bottom: 2pc !important;
+    }
+    img {
+        height: 100%;
+        width: 100%;
+    }
+    .offer-range {
+        margin-bottom: 1pc;
+        h5 {
+            font-size: 15px;
+            text-transform: uppercase;
+            font-weight: 600;
+            letter-spacing: 1px;
+        }
+        .offer-width {
+            width: 100%;
+            background: gray;
+        }
+        .offer-fill,
+        .offer-width {
+            height: 4px;
         }
     }
 }
