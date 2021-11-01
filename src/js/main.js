@@ -133,3 +133,12 @@ $(document).ready(function() {
         $("#videoModal iframe").removeAttr("src allow");
     });
 });
+
+$(document).ready(function() {
+    $(".service-page .nav-item").on('click', function(event) {
+
+        $('html,body').animate({
+            scrollTop: $("#scroll_to_me").offset().top
+        });
+    });
+});

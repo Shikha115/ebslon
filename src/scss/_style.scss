@@ -475,6 +475,7 @@ ul {
         top: 0;
         left: 33pc;
         overflow: hidden;
+        z-index: 33;
         .bulb {
             position: relative;
             height: 10pc;
@@ -501,6 +502,7 @@ ul {
             display: none;
             .service-heading2-content {
                 max-width: 50%;
+                padding-left: 1pc;
                 h4 {
                     font-weight: 600;
                     font-family: $rajdhani;
@@ -508,6 +510,13 @@ ul {
                 p {
                     font-weight: 600;
                     font-size: 14px;
+                    margin-bottom: 0.5rem;
+                }
+                a {
+                    color: $black;
+                    font-family: $rajdhani;
+                    font-weight: 700;
+                    text-decoration: underline;
                 }
             }
         }

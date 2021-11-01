@@ -799,6 +799,7 @@ ul li {
   top: 0;
   left: 33pc;
   overflow: hidden;
+  z-index: 33;
 }
 
 .service-sec .service-heading .bulb {
@@ -837,6 +838,7 @@ ul li {
 
 .service-sec .service-heading .service-heading2 .service-heading2-content {
   max-width: 50%;
+  padding-left: 1pc;
 }
 
 .service-sec .service-heading .service-heading2 .service-heading2-content h4 {
@@ -847,6 +849,14 @@ ul li {
 .service-sec .service-heading .service-heading2 .service-heading2-content p {
   font-weight: 600;
   font-size: 14px;
+  margin-bottom: 0.5rem;
+}
+
+.service-sec .service-heading .service-heading2 .service-heading2-content a {
+  color: #1d2122;
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 700;
+  text-decoration: underline;
 }
 
 .service-sec .service-heading .service-heading1 .bulb:before {

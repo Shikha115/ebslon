@@ -111,6 +111,7 @@
                     <div class='service-heading2-content'>
                         <h4>Our Services</h4>
                         <p>Pumero divino toto prima ensis. Cingebant uno pluvialibus.</p>
+                        <a href="single-service.php">Know More</a>
                     </div>
                 </div>
             </div>
