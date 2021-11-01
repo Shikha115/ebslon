@@ -81,7 +81,7 @@
         once: true,
         delay: 150,
         duration: 1500,
-        offset: 180,
+        offset: 150,
         });
     </script>
     <script src="src/js/fancybox.umd.js"></script>

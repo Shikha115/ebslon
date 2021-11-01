@@ -1933,22 +1933,32 @@ input:focus {
 .service-box1 img {
   height: 100%;
   width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.service-box1 .title-section h4 {
+  margin: 0pc 0 10px !important;
+  font-size: 27px;
+}
+
+.service-box1 .title-section i {
+  font-size: 30px;
+  color: #fbaf17;
+}
+
+.service-box1 p {
+  color: gray;
+  font-size: 15px;
+}
+
+.service-boxes img {
   -webkit-box-shadow: inset 0 0 0 1pc;
           box-shadow: inset 0 0 0 1pc;
   padding: 1pc;
   border: 2px dotted;
   -webkit-animation: border-transform 7s linear infinite alternate forwards;
           animation: border-transform 7s linear infinite alternate forwards;
-}
-
-.service-box1 .title-section h4 {
-  margin: 0pc 0 10px !important;
-  font-size: 30px;
-}
-
-.service-box1 p {
-  color: gray;
-  font-size: 15px;
 }
 
 .service-box2 {
@@ -1965,10 +1975,90 @@ input:focus {
   position: absolute;
 }
 
-.service-box2 img {
-  -webkit-animation-play-state: paused;
-          animation-play-state: paused;
+.service-box3 {
+  padding: 2pc 0;
+}
+
+.service-box3:before {
+  background: #a0ce4e7a;
+  height: 100%;
+  width: 60%;
+  right: 0;
+  top: 0;
+  content: '';
+  position: absolute;
+  border-radius: 8pc 0px 0px 8pc;
+}
+
+.service-box3 img {
+  width: 90% !important;
+}
+
+.service-box4 .title-section {
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.service-box4 .title-section > span {
+  top: -2pc;
+  bottom: auto !important;
+  line-height: 4pc;
+  font-size: 4pc !important;
+}
+
+.service-box4 .title-section h4 {
+  font-size: 40px !important;
+  margin-bottom: 25px !important;
+}
+
+.service-box4 p {
+  margin-bottom: 3pc;
+}
+
+.service-box4 ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.service-box4 ul li {
+  color: gray;
+  -webkit-box-shadow: 0px 0px 5px #d6d6c7;
+          box-shadow: 0px 0px 5px #d6d6c7;
+  -ms-flex-preferred-size: calc(33.33% - (20px));
+      flex-basis: calc(33.33% - (20px));
+  max-width: calc(33.33% - (20px));
+  padding: 15px 20px;
+  margin-bottom: 1.5pc;
+  text-align: center;
+  font-size: 15px;
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 700;
+  line-height: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border: 1px solid transparent;
+}
+
+.service-box4 ul li:hover {
   -webkit-box-shadow: none;
           box-shadow: none;
+  border-color: #fbaf17;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 /*# sourceMappingURL=main.css.map */

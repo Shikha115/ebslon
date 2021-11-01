@@ -153,37 +153,37 @@
                     <div class="offer-range">
                         <h5>Web Designing - 97%</h5>
                         <div class="offer-width">
-                            <div class="offer-fill" style='width:97%;background-color:#fbaf17;'></div>
+                            <div class="offer-fill" data-aos="zoom-in" style='width:97%;background-color:#fbaf17;'></div>
                         </div>
                     </div>
                     <div class="offer-range">
                         <h5>GRAPHIC DESIGNING - 80%</h5>
                         <div class="offer-width">
-                            <div class="offer-fill" style='width:80%;background-color:#00bea3;'></div>
+                            <div class="offer-fill" data-aos="zoom-in" style='width:80%;background-color:#00bea3;'></div>
                         </div>
                     </div>
                     <div class="offer-range">
                         <h5>WEB DEVELOPMENT - 92%</h5>
                         <div class="offer-width">
-                            <div class="offer-fill" style='width:92%;background-color:#f1894c;'></div>
+                            <div class="offer-fill" data-aos="zoom-in" style='width:92%;background-color:#f1894c;'></div>
                         </div>
                     </div>
                     <div class="offer-range">
                         <h5>APP DEVELOPMENT - 92%</h5>
                         <div class="offer-width">
-                            <div class="offer-fill" style='width:92%;background-color:#a0ce4e;'></div>
+                            <div class="offer-fill" data-aos="zoom-in" style='width:92%;background-color:#a0ce4e;'></div>
                         </div>
                     </div>
                     <div class="offer-range">
                         <h5>DIGITAL MARKETING - 88%</h5>
                         <div class="offer-width">
-                            <div class="offer-fill" style='width:88%;background-color:blue;'></div>
+                            <div class="offer-fill" data-aos="zoom-in" style='width:88%;background-color:blue;'></div>
                         </div>
                     </div>
                     <div class="offer-range">
                         <h5>CUSTOMER SUPPORT - 100%</h5>
                         <div class="offer-width">
-                            <div class="offer-fill" style='width:100%;background-color:skyblue;'></div>
+                            <div class="offer-fill" data-aos="zoom-in" style='width:100%;background-color:skyblue;'></div>
                         </div>
                     </div>
                 </div>
