@@ -1653,6 +1653,7 @@ input:focus {
         padding: 2pc 1.5pc;
         text-align: center;
         background-color: $black;
+        border: 5px double #fff;
         .input-group {
             border-bottom: 1px solid $primary;
             display: flex;
