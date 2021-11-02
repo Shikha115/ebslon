@@ -1248,12 +1248,12 @@ footer .footer-inner img {
 
 footer .footer-inner ul.links li {
   list-style: none;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 footer .footer-inner ul.links li:hover a {
-  -webkit-transform: translateX(15px) scale(1.1);
-          transform: translateX(15px) scale(1.1);
+  -webkit-transform: translateX(15px);
+          transform: translateX(15px);
   color: #fff;
   -webkit-transition: all 0.5s linear;
   transition: all 0.5s linear;
@@ -1261,10 +1261,11 @@ footer .footer-inner ul.links li:hover a {
 
 footer .footer-inner ul.links li a {
   text-decoration: none;
-  font-weight: 700;
-  font-size: 13px;
+  font-weight: 800;
+  font-size: 15px;
   letter-spacing: 1px;
   text-transform: uppercase;
+  font-family: "Rajdhani", sans-serif;
 }
 
 footer .footer-inner .footer-content {
@@ -2241,5 +2242,81 @@ input:focus {
   -o-object-fit: contain;
      object-fit: contain;
   margin-right: 1pc;
+}
+
+.contact-form {
+  position: absolute;
+  width: 100%;
+  bottom: 3pc;
+  right: 2pc;
+}
+
+.contact-form ::-webkit-input-placeholder {
+  color: #fff !important;
+}
+
+.contact-form :-ms-input-placeholder {
+  color: #fff !important;
+}
+
+.contact-form ::-ms-input-placeholder {
+  color: #fff !important;
+}
+
+.contact-form ::placeholder {
+  color: #fff !important;
+}
+
+.contact-form form {
+  -webkit-box-shadow: 1px 1px 11px 7px #0000000d;
+          box-shadow: 1px 1px 11px 7px #0000000d;
+  padding: 2pc 1.5pc;
+  text-align: center;
+  background-color: #1d2122;
+}
+
+.contact-form form .input-group {
+  border-bottom: 1px solid #fbaf17;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  margin-bottom: 22px;
+  background-color: transparent;
+}
+
+.contact-form form .input-group .input-group-prepend {
+  padding: 0px 11px;
+}
+
+.contact-form form .input-group .input-group-prepend i {
+  font-size: 13px;
+  color: #fbaf17;
+}
+
+.contact-form form textarea.form-control {
+  height: auto !important;
+}
+
+.contact-form form .form-control {
+  border: none;
+  background-color: transparent;
+  padding: 0.7rem 0rem;
+  font-size: 14px;
+  height: auto !important;
+  color: #fff !important;
+}
+
+.contact-form form .form-control:focus {
+  background-color: transparent !important;
+}
+
+.contact-form form a.btn-2 {
+  padding: 13px 30px;
+  font-size: 15px;
+  margin-top: 1pc;
+  color: #fff !important;
 }
 /*# sourceMappingURL=main.css.map */

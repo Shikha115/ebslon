@@ -71,58 +71,56 @@
     </section>
 
     <section class="contact-form">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-md-6"></div>
-                <div class="col-12 col-md-6">
-                <form>
-                    <div class="row">
-                        <div class="col-12 col-md-6 pr-1">
-                            <div class="input-group">
-                                <div class="input-group-prepend">
-                                    <i class="fas fa-user-friends"></i>
-                                </div>
-                                <input type="text" class="form-control" placeholder="Name">
+        <div class="row">
+            <div class="col-12 col-md-8 p-0"></div>
+            <div class="col-12 col-md-4 pl-0">
+            <form>
+                <div class="row">
+                    <div class="col-12 col-md-6 pr-0 ">
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <i class="fas fa-user-friends"></i>
                             </div>
-                        </div>
-                        <div class="col-12 col-md-6 pl-1">
-                            <div class="input-group">
-                                <div class="input-group-prepend">
-                                    <i class="fas fa-envelope"></i>
-                                </div>
-                                <input type="email" class="form-control" placeholder="Email">
-                            </div>
+                            <input type="text" class="form-control" placeholder="Name">
                         </div>
                     </div>
-
-                    <div class="row">
-                        <div class="col-12 col-md-6 pr-1">
-                            <div class="input-group">
-                                <div class="input-group-prepend">
-                                    <i class="fas fa-phone-alt"></i>
-                                </div>
-                                <input type="tel" class="form-control" placeholder="Phone">
+                    <div class="col-12 col-md-6">
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <i class="fas fa-envelope"></i>
                             </div>
-                        </div>
-                        <div class="col-12 col-md-6 pl-1">
-                            <div class="input-group">
-                                <div class="input-group-prepend">
-                                    <i class="fas fa-user-friends"></i>
-                                </div>
-                                <input type="text" class="form-control" placeholder="Your Topic">
-                            </div>
+                            <input type="email" class="form-control" placeholder="Email">
                         </div>
                     </div>
-
-                    <div class="input-group">
-                        <div class="input-group-prepend">
-                            <i class="fas fa-edit"></i>
-                        </div>
-                        <textarea rows="5" placeholder="Message" class="form-control"></textarea>
-                    </div>
-                    <a href="#" class="btn btn-2 rounded-0">Send Message</a>
-                </form>
                 </div>
+
+                <div class="row">
+                    <div class="col-12 col-md-6 pr-0 ">
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <input type="tel" class="form-control" placeholder="Phone">
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <i class="fas fa-user-friends"></i>
+                            </div>
+                            <input type="text" class="form-control" placeholder="Your Topic">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <i class="fas fa-edit"></i>
+                    </div>
+                    <textarea rows="5" placeholder="Message" class="form-control"></textarea>
+                </div>
+                <a href="#" class="btn btn-2 rounded-0">Send Message</a>
+            </form>
             </div>
         </div>
     </section>
