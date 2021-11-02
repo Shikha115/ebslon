@@ -1,6 +1,6 @@
 <?php include("header.php");?>
 
-<main>
+<main class='position-relative'>
     <section class="page-banner heading mb-80">
         <div class="container">
             <div class="page-absolute">
@@ -65,6 +65,63 @@
                         </h6>
                         <p class='m-0'><a href="mailto:info@ebslon.com">info@ebslon.com</a></p>
                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-form">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6"></div>
+                <div class="col-12 col-md-6">
+                <form>
+                    <div class="row">
+                        <div class="col-12 col-md-6 pr-1">
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <i class="fas fa-user-friends"></i>
+                                </div>
+                                <input type="text" class="form-control" placeholder="Name">
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 pl-1">
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <input type="email" class="form-control" placeholder="Email">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-12 col-md-6 pr-1">
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <i class="fas fa-phone-alt"></i>
+                                </div>
+                                <input type="tel" class="form-control" placeholder="Phone">
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 pl-1">
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <i class="fas fa-user-friends"></i>
+                                </div>
+                                <input type="text" class="form-control" placeholder="Your Topic">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <i class="fas fa-edit"></i>
+                        </div>
+                        <textarea rows="5" placeholder="Message" class="form-control"></textarea>
+                    </div>
+                    <a href="#" class="btn btn-2 rounded-0">Send Message</a>
+                </form>
                 </div>
             </div>
         </div>
