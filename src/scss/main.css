@@ -1703,7 +1703,7 @@ input:focus {
 
 .mission .mission-inner:before {
   content: '';
-  background-color: #000;
+  background-color: #1d2122;
   height: 0;
   width: 100%;
   left: 0;
@@ -1869,7 +1869,7 @@ input:focus {
 
 .offer:before, .offer:after {
   content: '';
-  background-color: white;
+  background-color: #fff;
   height: 28px;
   width: 28px;
   right: 50%;
@@ -2070,5 +2070,112 @@ input:focus {
   border-color: #fbaf17;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
+}
+
+.portfolio-page-sec .portfolio-images .port-img-inner .port-img-overlay {
+  bottom: 0;
+  right: -12pc;
+  background: #1d2122;
+  color: #fff;
+  height: 2pc;
+  width: 12pc;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.portfolio-page-sec .portfolio-images .port-img-inner .port-img-overlay h4 {
+  font-size: 16px;
+  text-transform: uppercase;
+  margin: 0;
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.portfolio-page-sec .portfolio-images .port-img-inner img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  -webkit-filter: grayscale(1);
+          filter: grayscale(1);
+  border: 1px solid #808080a8;
+  padding: 3px;
+  -webkit-box-shadow: 0px 0px 5px 2px #fbaf17;
+          box-shadow: 0px 0px 5px 2px #fbaf17;
+}
+
+.portfolio-page-sec .portfolio-images .port-img-inner:hover .port-img-overlay {
+  right: 0;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.portfolio-page-sec .portfolio-images .port-img-inner:hover img {
+  -webkit-filter: none;
+          filter: none;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.portfolio-page-sec .portfolio-tabs li.nav-item {
+  margin: 0 20px;
+}
+
+.portfolio-page-sec .portfolio-tabs li.nav-item .nav-link {
+  color: #1d2122;
+  font-weight: 600;
+  letter-spacing: 2px;
+  border: 1px solid #fbaf17;
+  border-radius: 0 !important;
+  padding: 0.5rem 3rem !important;
+}
+
+.portfolio-page-sec .portfolio-tabs li.nav-item .nav-link.active {
+  background-color: #1d2122 !important;
+  border-style: dotted;
+  color: #fff;
+}
+
+.single-port .title-section h4 {
+  -webkit-text-fill-color: #1d2122;
+  margin-bottom: 1pc;
+}
+
+.single-port img {
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  -webkit-box-shadow: 0px 0px 5px 3px #f3f3a680;
+          box-shadow: 0px 0px 5px 3px #f3f3a680;
+}
+
+.single-port a {
+  color: #fbaf17;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.single-port p {
+  color: gray;
+  font-size: 15px;
+}
+
+.single-port p span {
+  color: #1d2122;
+  font-weight: 700;
+  letter-spacing: 0px;
 }
 /*# sourceMappingURL=main.css.map */

@@ -627,7 +627,7 @@ ul {
         }
         &:before {
             content: '';
-            border: 5px solid #fbaf17;
+            border: 5px solid $primary;
             height: 100%;
             width: 50%;
             position: absolute;
@@ -737,7 +737,7 @@ ul {
             color: $white;
             box-shadow: inset 0px 0px 0px 2000px #0000ff2e;
             h4 {
-                background-color: #fbaf17;
+                background-color: $primary;
                 padding: 12px 30px;
                 font-size: 3pc;
                 font-weight: 700;
@@ -1083,7 +1083,7 @@ input:focus {
             i {
                 font-size: 50px;
                 margin: 0px 11px 0px 0;
-                color: #fbaf17;
+                color: $primary;
             }
         }
         h4.heading {
@@ -1094,7 +1094,7 @@ input:focus {
             font-size: 16px;
             font-weight: 600;
             font-style: italic;
-            color: #fbaf17;
+            color: $primary;
             letter-spacing: 1px;
         }
     }
@@ -1179,7 +1179,7 @@ input:focus {
         padding: 2pc 3pc 4pc;
         &:before {
             content: '';
-            background-color: #000;
+            background-color: $black;
             height: 0;
             width: 100%;
             left: 0;
@@ -1188,7 +1188,7 @@ input:focus {
             z-index: 1;
         }
         &:hover {
-            color: #fff;
+            color: $white;
             transition: all 0.5s linear;
             &:before {
                 transition: all 0.5s linear;
@@ -1200,7 +1200,7 @@ input:focus {
             width: 75px;
             border-radius: 50%;
             object-fit: cover;
-            border: 3px solid #fff;
+            border: 3px solid $white;
             box-shadow: 0px 0px 5px 2px lightgray;
             position: absolute;
             top: -2pc;
@@ -1321,7 +1321,7 @@ input:focus {
     &:before,
     &:after {
         content: '';
-        background-color: white;
+        background-color: $white;
         height: 28px;
         width: 28px;
         right: 50%;
@@ -1347,7 +1347,7 @@ input:focus {
             -webkit-text-stroke-color: #ffffff80;
             margin-bottom: 2pc !important;
             span {
-                -webkit-text-fill-color: #fff;
+                -webkit-text-fill-color: $white;
             }
         }
     }
@@ -1490,6 +1490,97 @@ input:focus {
                 border-color: $primary;
                 transition: all 0.5s;
             }
+        }
+    }
+}
+
+.portfolio-page-sec {
+    .portfolio-images {
+        .port-img-inner {
+            .port-img-overlay {
+                bottom: 0;
+                right: -12pc;
+                background: $black;
+                color: $white;
+                height: 2pc;
+                width: 12pc;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                h4 {
+                    font-size: 16px;
+                    text-transform: uppercase;
+                    margin: 0;
+                    font-family: $rajdhani;
+                    font-weight: 700;
+                    letter-spacing: 2px;
+                }
+            }
+            img {
+                height: 100%;
+                width: 100%;
+                object-fit: contain;
+                filter: grayscale(1);
+                border: 1px solid #808080a8;
+                padding: 3px;
+                box-shadow: 0px 0px 5px 2px $primary;
+            }
+            &:hover {
+                .port-img-overlay {
+                    right: 0;
+                    transition: all 0.5s;
+                }
+                img {
+                    filter: none;
+                    transform: scale(1.1);
+                    transition: all 0.5s;
+                }
+            }
+        }
+    }
+    .portfolio-tabs {
+        li.nav-item {
+            margin: 0 20px;
+            .nav-link {
+                color: $black;
+                font-weight: 600;
+                letter-spacing: 2px;
+                border: 1px solid $primary;
+                border-radius: 0 !important;
+                padding: 0.5rem 3rem !important;
+                &.active {
+                    background-color: $black !important;
+                    border-style: dotted;
+                    color: $white;
+                }
+            }
+        }
+    }
+}
+
+.single-port {
+    .title-section h4 {
+        -webkit-text-fill-color: $black;
+        margin-bottom: 1pc;
+    }
+    img {
+        height: max-content;
+        width: 100%;
+        object-fit: contain;
+        box-shadow: 0px 0px 5px 3px #f3f3a680;
+    }
+    a {
+        color: $primary;
+        font-weight: 600;
+        font-size: 15px;
+    }
+    p {
+        color: gray;
+        font-size: 15px;
+        span {
+            color: $black;
+            font-weight: 700;
+            letter-spacing: 0px;
         }
     }
 }
