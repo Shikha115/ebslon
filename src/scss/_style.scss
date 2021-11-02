@@ -1584,3 +1584,57 @@ input:focus {
         }
     }
 }
+
+.contact-page-sec {
+    .contact-page-left img {
+        height: 400px !important;
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+    .contact-page-right {
+        .title-section h4 {
+            -webkit-text-fill-color: black;
+            -webkit-text-stroke-color: #fbaf17;
+        }
+        a {
+            color: #6c757d!important;
+            font-weight: 700;
+            i {
+                transform: scaleX(-1);
+                color: black;
+                margin-right: 0.5pc;
+            }
+        }
+    }
+    .contact-details {
+        background: $black url('../images/bg-image.png') no-repeat fixed center/cover;
+        border: 2px dotted;
+        color: $white;
+        padding: 3pc 0;
+        .icon-box {
+            p {
+                margin-bottom: 5px;
+                font-size: 15px;
+                color: rgba(255, 255, 255, 0.5);
+            }
+            a {
+                color: rgba(255, 255, 255, 0.5);
+            }
+            h6 {
+                display: flex;
+                align-items: center;
+                font-weight: 600;
+                letter-spacing: 2px;
+                text-transform: uppercase;
+                margin-bottom: 1pc !important;
+            }
+            img {
+                height: 33px;
+                width: 33px;
+                object-fit: contain;
+                margin-right: 1pc;
+            }
+        }
+    }
+}

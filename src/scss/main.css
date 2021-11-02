@@ -2178,4 +2178,68 @@ input:focus {
   font-weight: 700;
   letter-spacing: 0px;
 }
+
+.contact-page-sec .contact-page-left img {
+  height: 400px !important;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.contact-page-sec .contact-page-right .title-section h4 {
+  -webkit-text-fill-color: black;
+  -webkit-text-stroke-color: #fbaf17;
+}
+
+.contact-page-sec .contact-page-right a {
+  color: #6c757d !important;
+  font-weight: 700;
+}
+
+.contact-page-sec .contact-page-right a i {
+  -webkit-transform: scaleX(-1);
+          transform: scaleX(-1);
+  color: black;
+  margin-right: 0.5pc;
+}
+
+.contact-page-sec .contact-details {
+  background: #1d2122 url("../images/bg-image.png") no-repeat fixed center/cover;
+  border: 2px dotted;
+  color: #fff;
+  padding: 3pc 0;
+}
+
+.contact-page-sec .contact-details .icon-box p {
+  margin-bottom: 5px;
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.contact-page-sec .contact-details .icon-box a {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.contact-page-sec .contact-details .icon-box h6 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 1pc !important;
+}
+
+.contact-page-sec .contact-details .icon-box img {
+  height: 33px;
+  width: 33px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin-right: 1pc;
+}
 /*# sourceMappingURL=main.css.map */
